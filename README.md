@@ -63,6 +63,6 @@ Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-la
 - Musim Semi: Jumlah sewa terendah (111 sewa/hari)
 
 ## Kontribusi
-Faizah Rizki Auliawati
-Email: frauliawati@gmail.com
-ID Dicoding: MC0092D5X2547
+- Faizah Rizki Auliawati
+- Email: frauliawati@gmail.com
+- ID Dicoding: MC0092D5X2547
