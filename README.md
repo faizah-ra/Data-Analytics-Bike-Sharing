@@ -11,7 +11,7 @@ submission
 ├───requirements.txt
 └───url.txt
 
-# data-analysis-bike-sharing Dashboard
+# Data Analysis Bike Sharing Dashboard
 Dashboard ini merupakan aplikasi analisis data penyewaan sepeda yang menampilkan visualisasi interaktif menggunakan Streamlit. Proyek ini mengolah data dari file CSV dan menyediakan insight mengenai pola penyewaan berdasarkan waktu dan kondisi (musim, hari kerja, dll).
 
 ## Pertanyaan Bisnis
