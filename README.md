@@ -53,8 +53,8 @@ Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-la
    streamlit
    scikit-learn
 
-**Hasil Analisis**
-Tren Waktu Penyewaan
+###Hasil Analisis
+**Tren Waktu Penyewaan**
 - Jam sibuk: 17.00-18.00 (waktu pulang kerja)
 - Jam sepi: 01.00-05.00 (dini hari hingga subuh)
 
@@ -62,7 +62,7 @@ Tren Waktu Penyewaan
 - Musim Gugur: Jumlah sewa tertinggi (236 sewa/hari)
 - Musim Semi: Jumlah sewa terendah (111 sewa/hari)
 
-Kontribusi
+###Kontribusi
 Faizah Rizki Auliawati
 Email: frauliawati@gmail.com
 ID Dicoding: MC0092D5X2547
