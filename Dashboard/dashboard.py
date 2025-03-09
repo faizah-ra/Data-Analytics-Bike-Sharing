@@ -7,7 +7,7 @@ import seaborn as sns
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv('hour.csv')
+    df = pd.read_csv('Dashboard/hour.csv')
     
     df.rename(columns={
         'instant': 'Indeks',
