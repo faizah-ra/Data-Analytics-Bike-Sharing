@@ -51,7 +51,6 @@ Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-la
    seaborn
    pandas
    streamlit
-   scikit-learn
 
 ## Hasil Analisis
 **Tren Waktu Penyewaan**
