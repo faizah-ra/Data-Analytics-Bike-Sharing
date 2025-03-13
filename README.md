@@ -53,7 +53,7 @@ Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-la
    streamlit
 
 ## Hasil Analisis
-** Lonjakan dan Penurunan Aktivitas Penyewaan Sepeda**
+**Lonjakan dan Penurunan Aktivitas Penyewaan Sepeda**
 - Lonjakan  : 17.00-18.00 (sore)
 - Penurunan : 01.00-05.00 (dini hari hingga subuh)
 
