@@ -53,9 +53,9 @@ Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-la
    streamlit
 
 ## Hasil Analisis
-**Tren Waktu Penyewaan**
-- Jam sibuk: 17.00-18.00 (sore)
-- Jam sepi: 01.00-05.00 (dini hari hingga subuh)
+** Lonjakan dan Penurunan Aktivitas Penyewaan Sepeda**
+- Lonjakan  : 17.00-18.00 (sore)
+- Penurunan : 01.00-05.00 (dini hari hingga subuh)
 
 **Pengaruh Musim**
 - Musim Gugur: Jumlah sewa tertinggi (236 sewa/hari)
