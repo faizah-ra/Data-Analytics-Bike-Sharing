@@ -1,8 +1,9 @@
 ## Struktur Proyek
 submission
 ├───dashboard
-│   ├───data.csv
-│   └───dashboard.py
+│   ├───dashboard.py
+│   ├───day.csv
+│   └───hour.csv
 ├───data
 │   ├───day.csv
 │   └───hour.csv
@@ -15,8 +16,8 @@ submission
 Dashboard ini merupakan aplikasi analisis data penyewaan sepeda yang menampilkan visualisasi interaktif menggunakan Streamlit. Proyek ini mengolah data dari file CSV dan menyediakan insight mengenai pola penyewaan berdasarkan waktu dan kondisi (musim, hari kerja, dll).
 
 ## Pertanyaan Bisnis
-1. Kapan waktu dengan jumlah penyewaan sepeda paling tinggi dan paling rendah?
-2. Bagaimana pengaruh musim terhadap jumlah penyewaan sepeda?
+1. Kapan terjadi lonjakan dan penurunan aktivitas penyewaan sepeda dalam 24 jam?
+2. Bagaimana perbedaan musim mempengaruhi rata-rata penyewaan sepeda?
 
 ## Setup Environment
 
@@ -46,15 +47,14 @@ Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-la
    streamlit run dashboard.py
 
 5. Pustaka yang Dibutuhkan
-   streamlit
+   pandas
    matplotlib
    seaborn
-   pandas
    streamlit
 
 ## Hasil Analisis
 **Tren Waktu Penyewaan**
-- Jam sibuk: 17.00-18.00 (waktu pulang kerja)
+- Jam sibuk: 17.00-18.00 (sore)
 - Jam sepi: 01.00-05.00 (dini hari hingga subuh)
 
 **Pengaruh Musim**
