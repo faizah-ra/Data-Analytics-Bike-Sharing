@@ -4,16 +4,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-day_df = pd.read_csv("day.csv")
 hour_df = pd.read_csv("hour.csv")
 
 # Preprocessing
-day_df['date'] = pd.to_datetime(day_df['dteday'])
 hour_df['date'] = pd.to_datetime(hour_df['dteday'])
 
 # Sidebar (Filter Rentang Waktu)
-min_date = day_df["date"].min()
-max_date = day_df["date"].max()
+min_date = hour_df["date"].min() 
+max_date = hour_df["date"].max()
+
 
 with st.sidebar:
     st.image("https://www.planetizen.com/files/images/shutterstock_1727726158.jpg")
