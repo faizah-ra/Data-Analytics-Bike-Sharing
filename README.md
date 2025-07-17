@@ -47,7 +47,7 @@ Sebagai *System Analyst*, saya bertanggung jawab untuk:
 - **Bahasa Pemrograman**: Python
 - **Dashboard**: Streamlit
 - **Visualisasi**: Seaborn, Matplotlib
-- **Analisis Data**: Pandas
+- **Analisis Data**: Pandas, Numpy
 - **Lingkungan**: Jupyter Notebook, Google Colab, Terminal
 
 ---
@@ -55,7 +55,6 @@ Sebagai *System Analyst*, saya bertanggung jawab untuk:
 ## 🏗️ Struktur Proyek
 ```
 data-analysis-bike-sharing/
-├── LICENSE                              # Lisensi proyek (MIT)
 ├───dashboard
 │   ├───dashboard.py      # Aplikasi Streamlit      
 │   ├───day.csv           # Data penyewaan harian
@@ -63,6 +62,7 @@ data-analysis-bike-sharing/
 ├───data
 │   ├───day.csv
 │   └───hour.csv
+├── LICENSE               # Lisensi proyek (MIT)
 ├───notebook.ipynb        # Exploratory Data Analysis
 ├───README.md             # Dokumentasi proyek
 ├───requirements.txt      # Dependensi proyek
