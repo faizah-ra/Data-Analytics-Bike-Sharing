@@ -23,18 +23,13 @@ hour_df["Kategori_Waktu"] = hour_df["hr"].apply(categorize_hour)
 # Sidebar
 with st.sidebar:
     st.image("https://www.planetizen.com/files/images/shutterstock_1727726158.jpg")
-    date_range = st.date_input(
+    start_date, end_date = st.date_input(
     label="📅 Rentang Waktu",
     min_value=hour_df["date"].min(),
     max_value=hour_df["date"].max(),
-    value=(hour_df["date"].min(), hour_df["date"].max())
+    value=[hour_df["date"].min(), hour_df["date"].max()]
 )
 
-if isinstance(date_range, tuple) and len(date_range) == 2:
-    start_date, end_date = date_range
-else:
-    st.error("❌ Harap pilih dua tanggal (awal dan akhir) untuk filter rentang waktu.")
-    st.stop()
 
 
 # Date filtering
