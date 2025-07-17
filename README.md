@@ -54,7 +54,7 @@ Sebagai *System Analyst*, saya bertanggung jawab untuk:
 
 ## 🏗️ Struktur Proyek
 ```
-data-analysis-bike-sharing/
+data-analtics-bike-sharing/
 ├───dashboard
 │   ├───dashboard.py      # Aplikasi Streamlit      
 │   ├───day.csv           # Data penyewaan harian
@@ -63,8 +63,8 @@ data-analysis-bike-sharing/
 │   ├───day.csv
 │   └───hour.csv
 ├── LICENSE               # Lisensi proyek (MIT)
-├───notebook.ipynb        # Exploratory Data Analysis
 ├───README.md             # Dokumentasi proyek
+├───notebook.ipynb        # Exploratory Data Analysis
 ├───requirements.txt      # Dependensi proyek
 └───url.txt               # Link deploy 
 ```
