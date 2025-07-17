@@ -42,6 +42,34 @@ Sebagai *System Analyst*, saya bertanggung jawab untuk:
 
 ---
 
+## 💼 Insight Bisnis
+
+Hasil analisis dari dashboard ini menghasilkan beberapa wawasan penting yang dapat dimanfaatkan oleh penyedia layanan penyewaan sepeda dalam pengambilan keputusan strategis:
+
+- **Optimasi Waktu Operasional**  
+  Aktivitas penyewaan memuncak pada pukul **17.00–18.00**, terutama pada hari kerja. Informasi ini dapat digunakan untuk:
+  - Meningkatkan ketersediaan unit sepeda di jam-jam sibuk
+  - Menempatkan ulang sepeda di lokasi strategis seperti area perkantoran atau transit hub
+
+- **Perencanaan Musiman**  
+  Ditemukan bahwa **musim gugur** memiliki tingkat penyewaan tertinggi, sedangkan **musim semi** cenderung lebih rendah. Hal ini dapat menjadi dasar untuk:
+  - Menambah armada pada musim tinggi
+  - Melakukan efisiensi operasional pada musim rendah
+  - Merancang promosi musiman
+
+- **Segmentasi Waktu Promosi**  
+  Minimnya aktivitas sewa pada dini hari (jam **01.00–05.00**) menunjukkan potensi untuk:
+  - Menerapkan program insentif pada jam-jam sepi
+  - Atau justru mengurangi operasional di jam tersebut untuk efisiensi biaya
+
+- **Kebijakan Dinamis dan Strategi Harga**  
+  Dengan pemahaman tren waktu dan musim, perusahaan dapat menerapkan **dynamic pricing** dan kebijakan penyesuaian tarif berbasis permintaan guna:
+  - Meningkatkan profitabilitas
+  - Mengatur distribusi permintaan secara lebih merata
+
+Dashboard ini berfungsi tidak hanya sebagai alat eksplorasi data, tetapi juga sebagai fondasi untuk **pengambilan keputusan berbasis data (data-driven decision making)** dalam skema operasional dan strategi bisnis layanan penyewaan sepeda.
+
+---
 ## 💻 Teknologi dan Library
 
 - **Bahasa Pemrograman**: Python
