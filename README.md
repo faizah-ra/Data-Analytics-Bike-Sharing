@@ -1,67 +1,106 @@
-## Struktur Proyek
-submission
+# 🚲 Bike Sharing Data Analysis Dashboard using Streamlit
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
+Dashboard interaktif ini dirancang untuk menganalisis perilaku penyewaan sepeda berdasarkan data harian dan jam. Proyek dibangun menggunakan Python dan *Streamlit*, serta dilengkapi dengan visualisasi eksploratif untuk memahami pola penggunaan sepeda berdasarkan waktu, musim, dan hari kerja.
+
+📌 Proyek ini merupakan bagian dari submission **Belajar Analisis Data dengan Python** di Dicoding.  
+🎖️ **Rating Submission: 5/5 (Bintang Lima)**  
+📁 Submission ID: `4087962`  
+📅 Tanggal Kirim: `15 Maret 2025`
+
+---
+
+## 👩‍💻 Peran dan Tanggung Jawab sebagai System Analyst
+
+Sebagai *System Analyst*, saya bertanggung jawab untuk:
+
+- 💡 **Menganalisis kebutuhan pengguna** terkait informasi pola penyewaan sepeda.
+- 🧩 **Mendesain alur data** dari *gathering*, *cleaning*, hingga visualisasi interaktif.
+- 🖥️ **Mengimplementasikan dashboard Streamlit** yang mudah digunakan dengan filter dinamis.
+- 📈 **Menyusun insight berbasis data** untuk menjawab pertanyaan bisnis utama.
+- 📑 **Menyusun dokumentasi sistem** dan *user flow* dalam bentuk *notebook* dan markdown.
+
+---
+
+## 🧾 Pertanyaan Bisnis
+
+1. Kapan terjadi lonjakan dan penurunan aktivitas penyewaan sepeda dalam 24 jam?
+2. Bagaimana perbedaan musim memengaruhi rata-rata penyewaan sepeda?
+
+---
+
+## 📊 Hasil Analisis
+
+### 🔄 Pola Waktu Harian
+- **Lonjakan:** Jam 17.00–18.00 (jam pulang kerja)
+- **Penurunan:** Jam 01.00–05.00 (dini hari)
+
+### 🍂 Pengaruh Musim
+- **Musim Gugur (Fall):** Aktivitas sewa tertinggi (236 sewa/hari)
+- **Musim Semi (Spring):** Aktivitas sewa terendah (111 sewa/hari)
+
+---
+
+## 💻 Teknologi dan Library
+
+- **Bahasa Pemrograman**: Python
+- **Dashboard**: Streamlit
+- **Visualisasi**: Seaborn, Matplotlib
+- **Analisis Data**: Pandas
+- **Lingkungan**: Jupyter Notebook, Google Colab, Terminal
+
+---
+
+## 🏗️ Struktur Proyek
+data-analysis-bike-sharing/
 ├───dashboard
-│   ├───dashboard.py
-│   ├───day.csv
-│   └───hour.csv
+│   ├───dashboard.py      # Aplikasi Streamlit      
+│   ├───day.csv           # Data penyewaan harian
+│   └───hour.csv          # Data penyewaan per jam
 ├───data
 │   ├───day.csv
 │   └───hour.csv
-├───notebook.ipynb
-├───README.md
-├───requirements.txt
-└───url.txt
+├───notebook.ipynb        # Exploratory Data Analysis
+├───README.md             # Dokumentasi proyek
+├───requirements.txt      # Dependensi proyek
+└───url.txt               # Link deploy 
 
-# Data Analysis Bike Sharing Dashboard
-Dashboard ini merupakan aplikasi analisis data penyewaan sepeda yang menampilkan visualisasi interaktif menggunakan Streamlit. Proyek ini mengolah data dari file CSV dan menyediakan insight mengenai pola penyewaan berdasarkan waktu dan kondisi (musim, hari kerja, dll).
 
-## Pertanyaan Bisnis
-1. Kapan terjadi lonjakan dan penurunan aktivitas penyewaan sepeda dalam 24 jam?
-2. Bagaimana perbedaan musim mempengaruhi rata-rata penyewaan sepeda?
+---
 
-## Setup Environment
+## ⚙️ Cara Menjalankan Proyek
 
-### Menggunakan Google Colab
-1. Unduh dataset dan notebook dari repositori ini
+### 🔹 Google Colab (EDA)
+1. Unduh `notebook.ipynb` dan `data/*.csv`
 2. Buka [Google Colab](https://colab.research.google.com/)
-3. Upload file `notebook.ipynb` ke Colab
-4. Jalankan sel-sel kode secara berurutan
+3. Upload file, lalu jalankan sel-sel kode
 
-### Menggunakan Shell/Terminal
-Jika Anda ingin menggunakan terminal untuk setup, Anda bisa mengikuti langkah-langkah berikut:
+### 🔹 Terminal (Dashboard)
+```bash
+# Clone project
+git clone https://github.com/faizah-ra/bike-sharing-dashboard.git
+cd bike-sharing-dashboard
 
-1. Buat direktori baru untuk proyek Anda:
-   bash
-   mkdir proyek_analisis_data
-   cd proyek_analisis_data
+# Buat virtual environment (opsional)
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate.bat
 
-2. Install pustaka yang diperlukan menggunakan Pipenv:
-   bash
-   Copy code
-   pipenv install
-   pipenv shell
-   pip install -r requirements.txt
+# Instal dependensi
+pip install -r requirements.txt
 
-3. Jalankan Aplikasi Streamlit
-   Untuk menjalankan dashboard, gunakan perintah berikut di terminal:
-   streamlit run dashboard.py
+# Jalankan dashboard
+streamlit run dashboard/dashboard.py
+```
+---
 
-5. Pustaka yang Dibutuhkan
-   pandas
-   matplotlib
-   seaborn
-   streamlit
+## 👩‍💻 Tentang Pengembang
 
-## Hasil Analisis
-**Lonjakan dan Penurunan Aktivitas Penyewaan Sepeda**
-- Lonjakan  : 17.00-18.00 (sore)
-- Penurunan : 01.00-05.00 (dini hari hingga subuh)
+**Faizah Rizki Auliawati**  
+Mahasiswa Informatika sekaligus seorang Data Enthusiast dengan minat mendalam pada bidang Machine Learning, System Analysis, dan pengembangan solusi berbasis data. Proyek ini merupakan bagian dari portofolio ilmiah dan praktikal untuk pengembangan sistem cerdas berbasis rekomendasi.
 
-**Pengaruh Musim**
-- Musim Gugur: Jumlah sewa tertinggi (236 sewa/hari)
-- Musim Semi: Jumlah sewa terendah (111 sewa/hari)
+---
 
-## Kontribusi
-- Faizah Rizki Auliawati
-- Email: frauliawati@gmail.com
-- ID Dicoding: MC0092D5X2547
+## 📄 Lisensi
+
+Proyek ini berlisensi MIT. Lihat `LICENSE` untuk detail.
